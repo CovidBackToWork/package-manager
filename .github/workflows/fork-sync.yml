@@ -2,7 +2,7 @@ name: 'Upstream Sync'
 
 on:
   schedule:
-    - cron: "00 6 * * *"
+    - cron: "15 8 * * *"
     # GitHub Actions only runs scheduled jobs on the default branch of your repository. So for this repo, tech/fork_sync is the default one
 
 jobs:
